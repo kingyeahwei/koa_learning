@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "koa": "^2.13.0"
+    "express": "^4.17.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.1.0"
   },
   "devDependencies": {},
   "scripts": {
