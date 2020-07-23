@@ -1,8 +1,6 @@
-const fs = require("fs");
 const Koa = require("koa");
 const app = new Koa();
 const bodyParser = require("koa-bodyparser");
-const router = require('koa-router')();
 app.use(async (ctx, next) => {
     console.log(`Progress ${ctx.request.method} ${ctx.request.url}`)
     await next()
